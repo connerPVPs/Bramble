@@ -1,0 +1,22 @@
+enabled: true
+default_volume: 75
+max_queue_size: 100
+embed:
+  title: "Music Controls"
+  body: "Use the buttons to control playback."
+  footer: "Powered by Bramble"
+  color: "#5865F2"
+  images:
+    thumbnail: ""
+    image: ""
+    icon: ""
+  buttons:
+    - label: "Pause"
+      action: "pause"
+      style: "secondary"
+    - label: "Skip"
+      action: "skip"
+      style: "primary"
+messages:
+  now_playing: "Now playing: {title}"
+  queue_empty: "Queue is empty"

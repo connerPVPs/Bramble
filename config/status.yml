@@ -1,0 +1,18 @@
+enabled: true
+interval_seconds: 300
+rotations:
+  - "Watching over {member_count} members"
+  - "Use /help for commands"
+embed:
+  title: "Bot Status"
+  body: "Current status details"
+  footer: "Auto-rotating"
+  color: "#5865F2"
+  images:
+    thumbnail: ""
+    image: ""
+    icon: ""
+  buttons: []
+messages:
+  online: "Bot is online"
+  maintenance: "Maintenance mode enabled"

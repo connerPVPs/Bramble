@@ -1,0 +1,19 @@
+enabled: true
+channel_id: 123456789012345679
+mention_new_member: true
+embed:
+  title: "Welcome to {server}!"
+  body: "Hey {user}, read the rules and enjoy your stay."
+  footer: "Member #{member_count}"
+  color: "#5865F2"
+  images:
+    thumbnail: "https://example.com/welcome-thumbnail.png"
+    image: "https://example.com/welcome-banner.png"
+    icon: "https://example.com/icon.png"
+  buttons:
+    - label: "Read Rules"
+      action: "rules"
+      style: "primary"
+messages:
+  dm: "Welcome {user}!"
+  public: "Everyone welcome {user}!"

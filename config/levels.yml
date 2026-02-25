@@ -1,0 +1,19 @@
+enabled: true
+xp_per_message: 15
+cooldown_seconds: 60
+level_up_channel_id: 123456789012345686
+reward_roles:
+  "5": 123456789012345687
+  "10": 123456789012345688
+embed:
+  title: "Level Up!"
+  body: "{user} reached level {level}."
+  footer: "Keep chatting to earn XP"
+  color: "#FEE75C"
+  images:
+    thumbnail: ""
+    image: ""
+    icon: ""
+  buttons: []
+messages:
+  level_up: "Congrats {user}, now level {level}!"

@@ -1,0 +1,22 @@
+enabled: true
+panel_channel_id: 123456789012345680
+category_id: 123456789012345681
+support_role_ids:
+  - 123456789012345682
+transcript_channel_id: 123456789012345683
+embed:
+  title: "Support Tickets"
+  body: "Press the button below to open a ticket."
+  footer: "Support Team"
+  color: "#57F287"
+  images:
+    thumbnail: ""
+    image: ""
+    icon: ""
+  buttons:
+    - label: "Create Ticket"
+      action: "create_ticket"
+      style: "success"
+messages:
+  created: "Ticket created for {user}."
+  closed: "Ticket closed by {moderator}."
