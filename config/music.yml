@@ -1,0 +1,2 @@
+# Restrict playback to this voice channel ID. Set to null to disable restriction.
+voice_channel_id: null
