@@ -1,0 +1,7 @@
+token: "YOUR_BOT_TOKEN"
+guild_id: 123456789012345678
+theme:
+  name: "Bramble"
+  color: "#5865F2"
+  success_color: "#57F287"
+  error_color: "#ED4245"
