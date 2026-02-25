@@ -1,0 +1,14 @@
+# Optional: channel id to send welcome messages to.
+# welcome_channel_id: 123456789012345678
+
+# Auto-role assigned on member join. Defaults to 1472473308459958376 if omitted.
+autorole_id: 1472473308459958376
+
+# Message template variables available:
+# {member_mention}, {member_name}, {server_name}, {member_count}
+welcome_text: "Welcome to **{server_name}**, {member_mention}!"
+
+# Optional embed customizations.
+# embed_title: "Welcome!"
+# banner_url: "https://example.com/welcome-banner.png"
+# thumbnail_url: "https://example.com/custom-thumbnail.png"
