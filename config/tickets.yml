@@ -1,0 +1,38 @@
+staff_role_id: 0
+log_channel_id: 0
+
+panel:
+  title: "Support Tickets"
+  description: "Choose a ticket type from the dropdown below to open a ticket."
+  color: 3447003
+
+ticket_rules:
+  title: "Ticket Rules"
+  color: 3447003
+  lines:
+    - "Describe your issue clearly and provide relevant details."
+    - "Do not share passwords or sensitive personal information."
+    - "Be respectful and patient while waiting for a response."
+    - "Do not ping staff; someone will assist you as soon as possible."
+
+options:
+  - key: general_support
+    label: "General Support"
+    description: "Questions or help requests."
+    emoji: "🛠️"
+    category_id: 0
+    channel_name_prefix: "support"
+
+  - key: bug_user_report
+    label: "Bug/User Report"
+    description: "Report bugs or problematic user behavior."
+    emoji: "🐞"
+    category_id: 0
+    channel_name_prefix: "report"
+
+  - key: punishment_appeal
+    label: "Punishment Appeal"
+    description: "Appeal a punishment decision."
+    emoji: "⚖️"
+    category_id: 0
+    channel_name_prefix: "appeal"
