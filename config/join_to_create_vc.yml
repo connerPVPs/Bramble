@@ -1,0 +1,26 @@
+# ID of the voice channel users join to create a temporary VC.
+trigger_channel_id: 0
+
+# Optional category to place temporary channels in.
+# If left as 0, the trigger channel's category is used.
+category_id: 0
+
+# Name template for temporary channels.
+# Available placeholders: {user}
+channel_name_template: "{user}'s-VC"
+
+# Max users in each temporary channel.
+user_limit: 25
+
+# Max number of active temporary channels per guild.
+max_temp_channels: 7
+
+# Fallback plain-text message sent when the cap is reached.
+cap_reached_message: "Temporary voice channel limit has been reached. Please try again shortly."
+
+# Configurable blue error embed sent when the cap is reached.
+cap_reached_embed:
+  enabled: true
+  title: "Voice Channels Full"
+  description: "There are already 7 active temporary voice channels. Please wait for one to free up."
+  color: "0x3498db"
